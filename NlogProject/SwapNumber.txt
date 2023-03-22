@@ -1,0 +1,4 @@
+﻿2023-03-19 15:02:18.0302 DEBUG Debugging with sum operation successfull
+2023-03-19 15:02:18.1767 INFO Sum Result: 4
+2023-03-19 15:02:18.2303 INFO Before swapping: a = 5, b = 10
+2023-03-19 15:02:18.2303 INFO After swapping: a = 10, b = 5
