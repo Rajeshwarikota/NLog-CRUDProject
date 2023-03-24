@@ -96,6 +96,7 @@
   <ItemGroup>
     <Compile Include="Adding.cs" />
     <Compile Include="ArrayListOperations.cs" />
+    <Compile Include="DictionaryCRUDOperation.cs" />
     <Compile Include="ListCRUD.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

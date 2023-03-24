@@ -13,7 +13,7 @@ namespace NlogProject
         {
             Console.WriteLine("....NLog...");
             Console.WriteLine("Enter the Option the below");
-            Console.WriteLine("\n:Adding\n2:Swapping\n3:ListCRUD\n4:ArrayListCrudOperations");
+            Console.WriteLine("\n:Adding\n2:Swapping\n3:ListCRUD\n4:ArrayListCrudOperations\n5:DictionaryCrudOperations\n22:Default");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -30,7 +30,12 @@ namespace NlogProject
                 case 4:
                     ArrayListOperations.ArrayListCRUD();
                     break;
-                
+                case 5:
+                    DictionaryCRUDOperation.DictionaryCRUD();
+                    break;
+                default: 
+                    Console.WriteLine("Enter the Above Options");
+                    break;
             }
             Console.ReadLine();
         }
